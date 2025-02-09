@@ -1,0 +1,78 @@
+.audio-container {
+  display: block;
+}
+
+.audio-container audio {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px; 
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.audio-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.audio-item p {
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+audio {
+  width: 100%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+@media (min-width: 768px) {
+  .sidebar:not(.always-visible) {
+    display: none;
+  }
+}
+
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
