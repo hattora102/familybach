@@ -5,5 +5,9 @@
     "express": "^4.21.2",
     "helmet": "^8.0.0",
     "rate-limit-express": "^2.2.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0"
   }
 }
